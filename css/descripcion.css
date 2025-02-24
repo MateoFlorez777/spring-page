@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+ 
+    background-color: #ffffff !important;
+    height: 80px;
+    padding: 0 5%;
+
+
+
+
+  }
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+  
+.navbar-nav{
+    padding-left: 80%;
+
+}
+
+.nav-link.active:hover {
+    color: #6db33f;
+}
+
+.nav-link.dropdown-toggle:hover{
+    color: #6db33f;
+}
+
+.dropdown-item:hover{
+    color: #6db33f;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8rem;
+}
+
+.section h2 {
+    color: #6db33f;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section a {
+    text-decoration: none;
+}
+
+.section a:hover {
+    color: #6db33f;
+}
+
+
+.footer {
+    padding: 0 5%;
+}
+
+.logo-spring {
+    width: 200px;
+    height: 50px;
+}
+
+
+.application{
+    display: flex;
+    justify-content: end;
+
+}
+
+.logo-application {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+}
+
+.logo-application:hover {
+    background-color: #6db33f;
+}
+
+.Copyright {
+    font-size: 13px;
+    margin-right: 20%;
+    margin-bottom: 3rem;
+}
+
+.apache {
+    color: rgb(168, 168, 168);
+}
+
+
+@media (max-width: 768px) {
+
+
+     /* Navbar */
+     .navbar.navbar-expand-lg.bg-body-tertiary {
+        height: auto;
+        padding: 10px 5%; /* Ajustamos el padding */
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;  /* Espaciado entre los elementos del navbar */
+    }
+
+    .logo {
+        width: 120px; /* Reducir tamaño del logo */
+        height: 30px;
+    }
+
+    /* Carrusel */
+    .d-block.w-100 {
+        height: 250px;
+        object-fit: cover; /*proporción de las imágenes */
+    }
+
+
+
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .section h2 {
+        font-size: 1.2em;
+    }
+
+    .section ul li {
+        font-size: 0.9em;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 5%;
+        text-align: left;
+    }
+
+    .Copyright, .apache {
+        text-align: left; /*textos a la izquierda */
+        font-size: 12px;
+    }
+
+    .logo-spring {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .application {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .logo-application {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        padding: 8px;
+        transition: background-color 0.3s;
+    }
+
+    .logo-application:hover {
+        background-color: #6db33f;
+    }
+
+
+}

@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Esto selecciona cualquier navbar que tenga esas tres clases */
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    /* Agrega aquí tus estilos personalizados */
+    background-color: #ffffff !important;
+    height: 80px;
+    padding: 0 5%;
+    margin-bottom: 5rem;
+  }
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+  
+.navbar-nav{
+    padding-left: 80%;
+
+}
+
+.nav-link.active:hover {
+    color: #6db33f;
+}
+
+.nav-link.dropdown-toggle:hover{
+    color: #6db33f;
+}
+
+.dropdown-item:hover{
+    color: #6db33f;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 5rem;
+}
+
+.text-2 {
+    color: #6db33f;
+}
+
+
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in-out 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.2);
+}
+
+.photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.photo p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+    padding: 0 5%;
+}
+
+.logo-spring {
+    width: 200px;
+    height: 50px;
+}
+
+
+.application{
+    display: flex;
+    justify-content: end;
+
+}
+
+.logo-application {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+}
+
+.logo-application:hover {
+    background-color: #6db33f;
+}
+
+.Copyright {
+    font-size: 13px;
+    margin-right: 20%;
+    margin-bottom: 3rem;
+}
+
+.apache {
+    color: rgb(168, 168, 168);
+}
+
+@media (max-width: 768px) {
+    /* Navbar */
+    /* Navbar */
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        height: auto;
+        padding: 10px 5%; /* Ajustamos el padding */
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;  /* Espaciado entre los elementos del navbar */
+    }
+
+    .logo {
+        width: 120px; /* Reducir tamaño del logo */
+        height: 30px;
+    }
+
+    /* Carrusel */
+    .d-block.w-100 {
+        height: 250px;
+        object-fit: cover; /*proporción de las imágenes */
+    }
+
+
+    .tittle {
+        font-size: 30px;
+    }
+
+    /* Fotos de autores */
+    .group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .photo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .photo p {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 5%;
+        text-align: left;
+    }
+
+    .Copyright, .apache {
+        text-align: left; /*textos a la izquierda */
+        font-size: 12px;
+    }
+
+    .logo-spring {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .application {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .logo-application {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        padding: 8px;
+        transition: background-color 0.3s;
+    }
+
+    .logo-application:hover {
+        background-color: #6db33f;
+    }
+}
